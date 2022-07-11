@@ -1,5 +1,5 @@
 import { defineConfig } from '@umijs/max';
-// const routerConfig = require('./src/routes');
+import routerConfig from './src/routes';
 
 export default defineConfig({
   antd: {},
@@ -10,6 +10,6 @@ export default defineConfig({
   layout: {
     title: '@umijs/max',
   },
-  // routes: routerConfig,
+  routes: routerConfig,
   npmClient: 'pnpm',
 });

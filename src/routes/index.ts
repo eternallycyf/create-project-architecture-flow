@@ -6,8 +6,8 @@ const Router = [
   {
     name: '/',
     redirect: './home',
-    routes: [...flatMap(Routes)],
   },
+  ...flatMap(Routes),
 ];
 
-module.exports = Router;
+export default Router;
