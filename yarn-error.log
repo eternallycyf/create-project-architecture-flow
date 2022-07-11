@@ -1,0 +1,57 @@
+Arguments: 
+  /Users/eternallycyf/.nvm/versions/node/v14.17.0/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /Users/eternallycyf/Library/pnpm:/home/eternallycyf/jdk1.7.0_03/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/opt/redis@4.0/bin:/Users/eternallycyf/.nvm/versions/node/v14.17.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/VMware Fusion.app/Contents/Public:/Library/Apple/usr/bin:/Users/eternallycyf/Library/pnpm:/home/eternallycyf/jdk1.7.0_03/bin:/usr/local/opt/mysql@5.6/bin:/usr/local/opt/redis@4.0/bin:/Users/eternallycyf/.nvm/versions/node/v14.17.0/bin:/Users/eternallycyf/Library/Android/sdk/emulator:/Users/eternallycyf/Library/Android/sdk/tools:/Users/eternallycyf/Library/Android/sdk/tools/bin:/Users/eternallycyf/Library/Android/sdk/platform-tools:/usr/local/Cellar/mysql/8.0.27/bin/:/usr/local/mongodb/bin/:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Applications/Android Studio.app/Contents/gradle/gradle-5.6.4/bin:/Users/eternallycyf/Library/Android/sdk/emulator:/Users/eternallycyf/Library/Android/sdk/tools:/Users/eternallycyf/Library/Android/sdk/tools/bin:/Users/eternallycyf/Library/Android/sdk/platform-tools:/usr/local/Cellar/mysql/8.0.27/bin/:/usr/local/mongodb/bin/:/Applications/Visual Studio Code.app/Contents/Resources/app/bin:/Applications/Android Studio.app/Contents/gradle/gradle-5.6.4/bin
+
+Yarn version: 
+  1.22.15
+
+Node version: 
+  14.17.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile '/Users/eternallycyf/Library/Caches/Yarn/v6/npm-glob-parent-6.0.2-6d237d99083950c79290f24c7642a3de9a28f9e3-integrity/node_modules/glob-parent/LICENSE' -> '/Users/eternallycyf/Documents/GitHub/case/自己的包/create-project-architecture-flow/node_modules/eslint/node_modules/glob-parent/LICENSE'
+
+npm manifest: 
+  {
+    "private": true,
+    "author": "eternallycyf <a969475322@gmail.com>",
+    "scripts": {
+      "biz-init": "ts-node scripts/generateBizConfig.ts",
+      "dev": "npm run biz-init && max dev",
+      "build": "max build",
+      "prepare": "husky install",
+      "postinstall": "max setup",
+      "setup": "max setup",
+      "start": "npm run dev"
+    },
+    "dependencies": {
+      "@ant-design/icons": "^4.7.0",
+      "@ant-design/pro-components": "^1.1.3",
+      "@umijs/max": "^4.0.6",
+      "antd": "^4.20.7"
+    },
+    "devDependencies": {
+      "@types/react": "^18.0.0",
+      "@types/react-dom": "^18.0.0",
+      "husky": "^8.0.1",
+      "lint-staged": "^13.0.3",
+      "prettier": "^2",
+      "prettier-plugin-organize-imports": "^2",
+      "prettier-plugin-packagejson": "^2",
+      "typescript": "^4.1.2",
+      "ts-node": "^10.4.0",
+      "ejs": "^3.1.6",
+      "cross-env": "^7.0.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
