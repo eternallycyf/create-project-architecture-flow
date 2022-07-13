@@ -1,0 +1,15 @@
+stages:
+  - build
+  - public
+
+test_deploy:
+  when: manual
+  only:
+    - develop
+  stage: build
+  variables:
+    PORT: "81"
+  tags:
+    - k8spackage
+  script:
+    # - 这里写docker相关命令 进行管理
