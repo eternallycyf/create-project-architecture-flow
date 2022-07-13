@@ -15,7 +15,7 @@
 
 ## demo
 
-```js
+```bash
 # dependencies
 /node_modules
 /npm-debug.log*

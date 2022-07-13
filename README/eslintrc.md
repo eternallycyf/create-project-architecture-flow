@@ -1,6 +1,6 @@
 ## start
 
-```js
+```bash
 # 下载eslint
 npm install eslint --save-dev
 # 初始化.eslintrc.js文件
@@ -16,7 +16,7 @@ eslint xxx.js --fix
 
 ## .eslintignore
 
-```js
+```bash
 # 忽略build目录下类型为js的文件的语法检查
 build/*.js
 # 忽略src/assets目录下文件的语法检查
