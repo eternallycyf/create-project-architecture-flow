@@ -4,6 +4,7 @@
   "scripts": {
     "biz-init": "ts-node scripts/generateBizConfig.ts",
     "build": "max build",
+    "commit": "git-cz",
     "dev": "npm run biz-init && max dev",
     "postinstall": "max setup",
     "lint": "eslint .",
@@ -20,6 +21,11 @@
       "prettier --parser=typescript --write"
     ]
   },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "dependencies": {
     "@ant-design/icons": "^4.7.0",
     "@ant-design/pro-components": "^1.1.3",
@@ -29,7 +35,9 @@
   "devDependencies": {
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "commitizen": "^4.2.4",
     "cross-env": "^7.0.3",
+    "cz-conventional-changelog": "^3.3.0",
     "ejs": "^3.1.6",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
